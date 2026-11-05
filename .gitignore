@@ -1,0 +1,25 @@
+# Logs
+*.log
+logs/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+secrets.*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python
+__pycache__/
+venv/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
